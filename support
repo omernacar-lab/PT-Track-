@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Track – Destek</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0B0F12;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      color: #B8C1CC;
+      font-size: 18px;
+    }
+    a {
+      color: #1ED760;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>PT Track Destek</h1>
+
+<p>
+Herhangi bir sorun, öneri veya geri bildirim için bize ulaşabilirsiniz:
+</p>
+
+<p>
+📧 <a href="mailto:pttrackapp@gmail.com">omer35nacar@icloud.com</a>
+</p>
+
+<p>
+En kısa sürede dönüş sağlanacaktır.
+</p>
+
+<p>
+<a href="index.html">Ana Sayfaya Dön</a>
+</p>
+
+</body>
+</html>
