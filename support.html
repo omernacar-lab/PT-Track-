@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PT Track – Destek</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destek — PT Track</title>
+  <meta name="description" content="PT Track destek: soru, sorun ve önerileriniz için omernacar.lab@gmail.com adresine yazın.">
+  <link rel="canonical" href="https://omernacar-lab.github.io/PT-Track-/support.html">
+  <meta name="apple-itunes-app" content="app-id=6757761419">
+  <meta name="theme-color" content="#0C0D10">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0B0F12;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 32px;
-    }
-    p {
-      color: #B8C1CC;
-      font-size: 18px;
-    }
-    a {
-      color: #1ED760;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    :root { --bg: #0C0D10; --card: #15171C; --line: rgba(255, 255, 255, .08); --text: #F4F5F7; --muted: #A9AEBA; --accent: #FF5A64; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 17px; line-height: 1.6;
+      color: var(--text); background: radial-gradient(800px 420px at 80% 0%, rgba(230, 57, 70, .16), transparent 70%), var(--bg);
+      -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .top { padding: 18px 0; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px; color: var(--text); text-decoration: none; }
+    .brand img { width: 36px; height: 36px; border-radius: 9px; box-shadow: 0 0 0 1px var(--line); }
+    h1 { margin: 40px 0 12px; font-size: clamp(32px, 6vw, 44px); line-height: 1.1; letter-spacing: -1px; }
+    p { color: var(--muted); }
+    .card { margin: 28px 0; padding: 24px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); }
+    .card p { margin: 0 0 6px; }
+    .mail { font-size: 20px; font-weight: 800; color: var(--accent); text-decoration: none; word-break: break-all; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+    ul { padding-left: 20px; color: var(--muted); }
+    li { margin: 6px 0; }
+    li a, footer a { color: var(--text); }
+    footer { margin: 48px 0; padding-top: 24px; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 20px; }
+    footer a { text-decoration: none; }
   </style>
 </head>
 <body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./"><img src="assets/icon-192.png" alt="" width="36" height="36">PT Track</a>
+    </header>
 
-<h1>PT Track Destek</h1>
+    <main>
+      <h1>PT Track Destek</h1>
+      <p>Bir sorun mu yaşıyorsun, bir önerin mi var? Yazman yeterli; en kısa sürede dönüş yapılır.</p>
 
-<p>
-Herhangi bir sorun, öneri veya geri bildirim için bize ulaşabilirsiniz:
-</p>
+      <div class="card">
+        <p>E-posta</p>
+        <a class="mail" href="mailto:omernacar.lab@gmail.com">omernacar.lab@gmail.com</a>
+      </div>
 
-<p>
-📧 <a href="mailto:omernacar.lab@gmail.com">omernacar.lab@gmail.com</a>
-</p>
+      <p>Yazarken şunları eklersen daha hızlı yardımcı olabiliriz:</p>
+      <ul>
+        <li>Kullandığın iPhone modeli ve uygulama sürümü (Profil &gt; Hakkımızda'da yazar)</li>
+        <li>Sorunun hangi ekranda ve ne yaparken olduğu</li>
+        <li>Varsa bir ekran görüntüsü</li>
+      </ul>
 
-<p>
-En kısa sürede dönüş sağlanacaktır.
-</p>
+      <p>Sık sorulan sorular için <a href="./#sss" style="color: var(--text)">ana sayfadaki SSS bölümüne</a> bakabilirsin.</p>
+    </main>
 
-<p>
-<a href="https://omernacar-lab.github.io/Pt-Track-Privacy/">Gizlilik Politikası</a>
-</p>
-
-<p>
-<a href="./">Ana Sayfaya Dön</a>
-</p>
-
+    <footer>
+      <a href="./">Ana sayfa</a>
+      <a href="https://omernacar-lab.github.io/Pt-Track-Privacy/">Gizlilik Politikası</a>
+      <span>© 2026 Ömer Nacar</span>
+    </footer>
+  </div>
 </body>
 </html>
